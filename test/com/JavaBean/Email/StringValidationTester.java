@@ -31,4 +31,9 @@ public class StringValidationTester {
 		isEmail = validation.checkEmail("timtang09");
 		assertEquals(false, isEmail);
 	}
+	
+	@Test
+	public void testHelloWorld() {
+		System.out.println("Hello World!");
+	}
 }
