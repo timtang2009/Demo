@@ -6,7 +6,7 @@ apply plugin: 'war'
 apply plugin: 'eclipse-wtp'
  
  
-sourceCompatibility = 1.8   // 设置 JDK 版本
+sourceCompatibility = 1.7   // 设置 JDK 版本
 webAppDirName = 'WebContent'    // 设置 WebApp 根目录
 sourceSets.main.java.srcDir 'src'   // 设置 Java 源码所在目录
  
